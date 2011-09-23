@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94AAE626142C086100AE45D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAE625142C086100AE45D3 /* Cocoa.framework */; };
+		94AAE630142C086100AE45D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94AAE62E142C086100AE45D3 /* InfoPlist.strings */; };
+		94AAE632142C086100AE45D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE631142C086100AE45D3 /* main.m */; };
+		94AAE636142C086100AE45D3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAE634142C086100AE45D3 /* Credits.rtf */; };
+		94AAE639142C086100AE45D3 /* CalendarControlAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE638142C086100AE45D3 /* CalendarControlAppDelegate.m */; };
+		94AAE63C142C086100AE45D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94AAE63A142C086100AE45D3 /* MainMenu.xib */; };
+		94AAE64E142C08EB00AE45D3 /* AFCalendarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE649142C08EB00AE45D3 /* AFCalendarButton.m */; };
+		94AAE64F142C08EB00AE45D3 /* AFCalendarControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE64B142C08EB00AE45D3 /* AFCalendarControl.m */; };
+		94AAE650142C08EB00AE45D3 /* AFCalendarControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE64D142C08EB00AE45D3 /* AFCalendarControlCell.m */; };
+		94AAE65F142C08FB00AE45D3 /* AFGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE653142C08FB00AE45D3 /* AFGeometry.m */; };
+		94AAE660142C08FB00AE45D3 /* AFKeyValueBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE655142C08FB00AE45D3 /* AFKeyValueBinding.m */; };
+		94AAE661142C08FB00AE45D3 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE658142C08FB00AE45D3 /* NSArray+Additions.m */; };
+		94AAE662142C08FB00AE45D3 /* NSBezierPath+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE65A142C08FB00AE45D3 /* NSBezierPath+Additions.m */; };
+		94AAE663142C08FB00AE45D3 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE65C142C08FB00AE45D3 /* NSDate+Additions.m */; };
+		94AAE664142C08FB00AE45D3 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE65E142C08FB00AE45D3 /* NSString+Additions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94AAE621142C086100AE45D3 /* CalendarControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AAE625142C086100AE45D3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		94AAE628142C086100AE45D3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		94AAE629142C086100AE45D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		94AAE62A142C086100AE45D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94AAE62D142C086100AE45D3 /* CalendarControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalendarControl-Info.plist"; sourceTree = "<group>"; };
+		94AAE62F142C086100AE45D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94AAE631142C086100AE45D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94AAE633142C086100AE45D3 /* CalendarControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalendarControl-Prefix.pch"; sourceTree = "<group>"; };
+		94AAE635142C086100AE45D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		94AAE637142C086100AE45D3 /* CalendarControlAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarControlAppDelegate.h; sourceTree = "<group>"; };
+		94AAE638142C086100AE45D3 /* CalendarControlAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarControlAppDelegate.m; sourceTree = "<group>"; };
+		94AAE63B142C086100AE45D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		94AAE648142C08EB00AE45D3 /* AFCalendarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFCalendarButton.h; path = CalendarControl/AFCalendarControl/AFCalendarButton.h; sourceTree = "<group>"; };
+		94AAE649142C08EB00AE45D3 /* AFCalendarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFCalendarButton.m; path = CalendarControl/AFCalendarControl/AFCalendarButton.m; sourceTree = "<group>"; };
+		94AAE64A142C08EB00AE45D3 /* AFCalendarControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFCalendarControl.h; path = CalendarControl/AFCalendarControl/AFCalendarControl.h; sourceTree = "<group>"; };
+		94AAE64B142C08EB00AE45D3 /* AFCalendarControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFCalendarControl.m; path = CalendarControl/AFCalendarControl/AFCalendarControl.m; sourceTree = "<group>"; };
+		94AAE64C142C08EB00AE45D3 /* AFCalendarControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFCalendarControlCell.h; path = CalendarControl/AFCalendarControl/AFCalendarControlCell.h; sourceTree = "<group>"; };
+		94AAE64D142C08EB00AE45D3 /* AFCalendarControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFCalendarControlCell.m; path = CalendarControl/AFCalendarControl/AFCalendarControlCell.m; sourceTree = "<group>"; };
+		94AAE652142C08FB00AE45D3 /* AFGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFGeometry.h; path = CalendarControl/AFCalendarControl/AFGeometry.h; sourceTree = "<group>"; };
+		94AAE653142C08FB00AE45D3 /* AFGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFGeometry.m; path = CalendarControl/AFCalendarControl/AFGeometry.m; sourceTree = "<group>"; };
+		94AAE654142C08FB00AE45D3 /* AFKeyValueBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFKeyValueBinding.h; path = CalendarControl/AFCalendarControl/AFKeyValueBinding.h; sourceTree = "<group>"; };
+		94AAE655142C08FB00AE45D3 /* AFKeyValueBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFKeyValueBinding.m; path = CalendarControl/AFCalendarControl/AFKeyValueBinding.m; sourceTree = "<group>"; };
+		94AAE656142C08FB00AE45D3 /* AFMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFMacro.h; path = CalendarControl/AFCalendarControl/AFMacro.h; sourceTree = "<group>"; };
+		94AAE657142C08FB00AE45D3 /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Additions.h"; path = "CalendarControl/AFCalendarControl/NSArray+Additions.h"; sourceTree = "<group>"; };
+		94AAE658142C08FB00AE45D3 /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Additions.m"; path = "CalendarControl/AFCalendarControl/NSArray+Additions.m"; sourceTree = "<group>"; };
+		94AAE659142C08FB00AE45D3 /* NSBezierPath+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+Additions.h"; path = "CalendarControl/AFCalendarControl/NSBezierPath+Additions.h"; sourceTree = "<group>"; };
+		94AAE65A142C08FB00AE45D3 /* NSBezierPath+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+Additions.m"; path = "CalendarControl/AFCalendarControl/NSBezierPath+Additions.m"; sourceTree = "<group>"; };
+		94AAE65B142C08FB00AE45D3 /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Additions.h"; path = "CalendarControl/AFCalendarControl/NSDate+Additions.h"; sourceTree = "<group>"; };
+		94AAE65C142C08FB00AE45D3 /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Additions.m"; path = "CalendarControl/AFCalendarControl/NSDate+Additions.m"; sourceTree = "<group>"; };
+		94AAE65D142C08FB00AE45D3 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "CalendarControl/AFCalendarControl/NSString+Additions.h"; sourceTree = "<group>"; };
+		94AAE65E142C08FB00AE45D3 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "CalendarControl/AFCalendarControl/NSString+Additions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94AAE61E142C086100AE45D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AAE626142C086100AE45D3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94AAE616142C086100AE45D3 = {
+			isa = PBXGroup;
+			children = (
+				94AAE651142C08EE00AE45D3 /* Amber */,
+				94AAE646142C08D600AE45D3 /* AFCalendarControl */,
+				94AAE62B142C086100AE45D3 /* CalendarControl */,
+				94AAE624142C086100AE45D3 /* Frameworks */,
+				94AAE622142C086100AE45D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94AAE622142C086100AE45D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94AAE621142C086100AE45D3 /* CalendarControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94AAE624142C086100AE45D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94AAE625142C086100AE45D3 /* Cocoa.framework */,
+				94AAE627142C086100AE45D3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94AAE627142C086100AE45D3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94AAE628142C086100AE45D3 /* AppKit.framework */,
+				94AAE629142C086100AE45D3 /* CoreData.framework */,
+				94AAE62A142C086100AE45D3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		94AAE62B142C086100AE45D3 /* CalendarControl */ = {
+			isa = PBXGroup;
+			children = (
+				94AAE637142C086100AE45D3 /* CalendarControlAppDelegate.h */,
+				94AAE638142C086100AE45D3 /* CalendarControlAppDelegate.m */,
+				94AAE63A142C086100AE45D3 /* MainMenu.xib */,
+				94AAE62C142C086100AE45D3 /* Supporting Files */,
+			);
+			path = CalendarControl;
+			sourceTree = "<group>";
+		};
+		94AAE62C142C086100AE45D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94AAE62D142C086100AE45D3 /* CalendarControl-Info.plist */,
+				94AAE62E142C086100AE45D3 /* InfoPlist.strings */,
+				94AAE631142C086100AE45D3 /* main.m */,
+				94AAE633142C086100AE45D3 /* CalendarControl-Prefix.pch */,
+				94AAE634142C086100AE45D3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94AAE646142C08D600AE45D3 /* AFCalendarControl */ = {
+			isa = PBXGroup;
+			children = (
+				94AAE648142C08EB00AE45D3 /* AFCalendarButton.h */,
+				94AAE649142C08EB00AE45D3 /* AFCalendarButton.m */,
+				94AAE64A142C08EB00AE45D3 /* AFCalendarControl.h */,
+				94AAE64B142C08EB00AE45D3 /* AFCalendarControl.m */,
+				94AAE64C142C08EB00AE45D3 /* AFCalendarControlCell.h */,
+				94AAE64D142C08EB00AE45D3 /* AFCalendarControlCell.m */,
+			);
+			name = AFCalendarControl;
+			sourceTree = "<group>";
+		};
+		94AAE651142C08EE00AE45D3 /* Amber */ = {
+			isa = PBXGroup;
+			children = (
+				94AAE652142C08FB00AE45D3 /* AFGeometry.h */,
+				94AAE653142C08FB00AE45D3 /* AFGeometry.m */,
+				94AAE654142C08FB00AE45D3 /* AFKeyValueBinding.h */,
+				94AAE655142C08FB00AE45D3 /* AFKeyValueBinding.m */,
+				94AAE656142C08FB00AE45D3 /* AFMacro.h */,
+				94AAE657142C08FB00AE45D3 /* NSArray+Additions.h */,
+				94AAE658142C08FB00AE45D3 /* NSArray+Additions.m */,
+				94AAE659142C08FB00AE45D3 /* NSBezierPath+Additions.h */,
+				94AAE65A142C08FB00AE45D3 /* NSBezierPath+Additions.m */,
+				94AAE65B142C08FB00AE45D3 /* NSDate+Additions.h */,
+				94AAE65C142C08FB00AE45D3 /* NSDate+Additions.m */,
+				94AAE65D142C08FB00AE45D3 /* NSString+Additions.h */,
+				94AAE65E142C08FB00AE45D3 /* NSString+Additions.m */,
+			);
+			name = Amber;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94AAE620142C086100AE45D3 /* CalendarControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94AAE63F142C086100AE45D3 /* Build configuration list for PBXNativeTarget "CalendarControl" */;
+			buildPhases = (
+				94AAE61D142C086100AE45D3 /* Sources */,
+				94AAE61E142C086100AE45D3 /* Frameworks */,
+				94AAE61F142C086100AE45D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarControl;
+			productName = CalendarControl;
+			productReference = 94AAE621142C086100AE45D3 /* CalendarControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94AAE618142C086100AE45D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ernesto;
+			};
+			buildConfigurationList = 94AAE61B142C086100AE45D3 /* Build configuration list for PBXProject "CalendarControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94AAE616142C086100AE45D3;
+			productRefGroup = 94AAE622142C086100AE45D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94AAE620142C086100AE45D3 /* CalendarControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94AAE61F142C086100AE45D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AAE630142C086100AE45D3 /* InfoPlist.strings in Resources */,
+				94AAE636142C086100AE45D3 /* Credits.rtf in Resources */,
+				94AAE63C142C086100AE45D3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94AAE61D142C086100AE45D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AAE632142C086100AE45D3 /* main.m in Sources */,
+				94AAE639142C086100AE45D3 /* CalendarControlAppDelegate.m in Sources */,
+				94AAE64E142C08EB00AE45D3 /* AFCalendarButton.m in Sources */,
+				94AAE64F142C08EB00AE45D3 /* AFCalendarControl.m in Sources */,
+				94AAE650142C08EB00AE45D3 /* AFCalendarControlCell.m in Sources */,
+				94AAE65F142C08FB00AE45D3 /* AFGeometry.m in Sources */,
+				94AAE660142C08FB00AE45D3 /* AFKeyValueBinding.m in Sources */,
+				94AAE661142C08FB00AE45D3 /* NSArray+Additions.m in Sources */,
+				94AAE662142C08FB00AE45D3 /* NSBezierPath+Additions.m in Sources */,
+				94AAE663142C08FB00AE45D3 /* NSDate+Additions.m in Sources */,
+				94AAE664142C08FB00AE45D3 /* NSString+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94AAE62E142C086100AE45D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94AAE62F142C086100AE45D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94AAE634142C086100AE45D3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94AAE635142C086100AE45D3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		94AAE63A142C086100AE45D3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94AAE63B142C086100AE45D3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94AAE63D142C086100AE45D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		94AAE63E142C086100AE45D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		94AAE640142C086100AE45D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalendarControl/CalendarControl-Prefix.pch";
+				INFOPLIST_FILE = "CalendarControl/CalendarControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94AAE641142C086100AE45D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalendarControl/CalendarControl-Prefix.pch";
+				INFOPLIST_FILE = "CalendarControl/CalendarControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94AAE61B142C086100AE45D3 /* Build configuration list for PBXProject "CalendarControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AAE63D142C086100AE45D3 /* Debug */,
+				94AAE63E142C086100AE45D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94AAE63F142C086100AE45D3 /* Build configuration list for PBXNativeTarget "CalendarControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AAE640142C086100AE45D3 /* Debug */,
+				94AAE641142C086100AE45D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94AAE618142C086100AE45D3 /* Project object */;
+}
