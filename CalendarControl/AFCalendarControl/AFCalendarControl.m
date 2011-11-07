@@ -555,6 +555,7 @@ NS_INLINE NSRectArray _AFCalendarControlCreateCalendarRowRects(NSRect calendarRe
 	if (_dayNames != nil) return _dayNames;
 	
 	NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setLocale:[NSLocale currentLocale]]; 
 	_dayNames = [[formatter shortWeekdaySymbols] copy];
 	[formatter release];
 	
@@ -596,8 +597,7 @@ NS_INLINE NSRectArray _AFCalendarControlCreateCalendarRowRects(NSRect calendarRe
 	// Draw contents
 	NSRect monthTitleRect, dayTitlesRect;
 	_AFCalendarControlTitleFrames(titleRect, &monthTitleRect, NULL, &dayTitlesRect);
-	
-	NSDate *currentMonth = [self valueForBinding:AFCurrentMonthBinding];
+  NSDate *currentMonth = [self valueForBinding:AFCurrentMonthBinding];
 	
 	[[self _textColor] set];
     /* // descriptionWithCalendarFormat is deprecated.
@@ -625,7 +625,7 @@ NS_INLINE NSRectArray _AFCalendarControlCreateCalendarRowRects(NSRect calendarRe
 		[NSGraphicsContext saveGraphicsState];
 		
 		[[self _textColor] set];
-		NSString *string = [dayNames objectAtIndex:dayIndex];
+		NSString *string = [[dayNames objectAtIndex:dayIndex] capitalizedString];
 		
 		AKDrawStringAlignedInFrame(string, [NSFont boldSystemFontOfSize:1], NSCenterTextAlignment, dayRect);
 		
@@ -636,6 +636,8 @@ NS_INLINE NSRectArray _AFCalendarControlCreateCalendarRowRects(NSRect calendarRe
 }
 
 - (void)_drawCalendarRect:(NSRect)calendarRect {
+    
+                                                
 	NSSize daySize = NSMakeSize(NSWidth(calendarRect)/7.0, NSHeight(calendarRect)/_AFCalendarControlTotalWeekRows);
 	
 	// Draw the calendar

@@ -2,7 +2,7 @@
 
 Fork of the great [AFCalendarControl](http://code.google.com/p/calendarcontrol/) by Keith Duncan. 
 
- AFCalendar control is part of [AmberKit](http://code.google.com/p/amber-framework/). Current trunk version (as of Sept'2001) does not compile properly.
+ AFCalendar control is part of [AmberKit](http://code.google.com/p/amber-framework/). Current trunk version (as of Sept'2010) does not compile properly.
 This is a fork which includes just the Month Calendar Control, and the part of the AmberKit needed to compile it.
 
 Besides, some other changes have been made:

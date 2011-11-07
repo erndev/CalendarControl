@@ -22,6 +22,7 @@
 		94AAE662142C08FB00AE45D3 /* NSBezierPath+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE65A142C08FB00AE45D3 /* NSBezierPath+Additions.m */; };
 		94AAE663142C08FB00AE45D3 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE65C142C08FB00AE45D3 /* NSDate+Additions.m */; };
 		94AAE664142C08FB00AE45D3 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAE65E142C08FB00AE45D3 /* NSString+Additions.m */; };
+		94AAE666142C9D5D00AE45D3 /* calendar_header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 94AAE665142C9D5D00AE45D3 /* calendar_header_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		94AAE65C142C08FB00AE45D3 /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Additions.m"; path = "CalendarControl/AFCalendarControl/NSDate+Additions.m"; sourceTree = "<group>"; };
 		94AAE65D142C08FB00AE45D3 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "CalendarControl/AFCalendarControl/NSString+Additions.h"; sourceTree = "<group>"; };
 		94AAE65E142C08FB00AE45D3 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "CalendarControl/AFCalendarControl/NSString+Additions.m"; sourceTree = "<group>"; };
+		94AAE665142C9D5D00AE45D3 /* calendar_header_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_header_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		94AAE62C142C086100AE45D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94AAE665142C9D5D00AE45D3 /* calendar_header_bg.png */,
 				94AAE62D142C086100AE45D3 /* CalendarControl-Info.plist */,
 				94AAE62E142C086100AE45D3 /* InfoPlist.strings */,
 				94AAE631142C086100AE45D3 /* main.m */,
@@ -218,6 +221,7 @@
 				94AAE630142C086100AE45D3 /* InfoPlist.strings in Resources */,
 				94AAE636142C086100AE45D3 /* Credits.rtf in Resources */,
 				94AAE63C142C086100AE45D3 /* MainMenu.xib in Resources */,
+				94AAE666142C9D5D00AE45D3 /* calendar_header_bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
